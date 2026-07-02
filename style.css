@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     background-image: url('images/background.jpg');
@@ -8,6 +12,7 @@ body {
     width: 100%;
     height: 105vh;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 } 
 
 
@@ -16,7 +21,8 @@ nav {
     background-color: #c9a0a0;
     width: 100%;
     height: 80px;
-    margin-top: -28px;
+    margin-top: -45px;
+    z-index: 2;
 }
 
 nav li {
@@ -41,7 +47,7 @@ ul{
 i {
     position: relative;
     left: 10%;
-    top: -15px;
+    top: -35px;
     font-size: 35px;
     margin-top: -25px;
 }
@@ -49,7 +55,7 @@ i {
 .contact-btn {
     margin-left: 55%;
     position: relative;
-    top: -25px;
+    top: -45px;
     width: 110px;
     height: 35px;
     border-radius: 20px;
@@ -59,36 +65,217 @@ i {
 
 main .banner {
     position: relative;
-    top: 250px;
-    left: 80px;
+    top: 190px;
+    left: 10%;
     font-size: 20px;
     
+}
+
+.banner h1 {
+    font-family: cursive;
+    font-size: 60px;
+}
+.banner p {
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: 'sans';
 }
 
 main .bag-img {
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
+    margin-top: -10%;
+    margin-left: 30%;
 }
 
 .bag-img {
     margin-left: 30%;
+    border-radius: 15px;
 }
 
 .heading {
     font-size: 40px;
     text-align: center;
     position: relative;
-    top: -40px;
+    top: -70px;
 }
 
 .Collection {
-  margin-top: 45vh;
+  margin-top: 40vh;
   background-color: #fff5f0;
 }
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
-    
+    gap: 60px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 4px 0 8px;
+}
+
+.content {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.more-btn {
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    margin-left: 46%;
+    margin-top: 35px;
+    position: relative;
+    top: -15px
+}
+
+#choose {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont {
+    background-color: #fff5f0;
+    height: 500px;
+}
+
+.choose {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "yarn box quality"
+    "present present quality"
+    ;
+    gap: 25px;
+    margin-left: 18%;
+    position: relative;
+    top: 8%;
+}
+
+.yarn {
+    grid-area: yarn;
+}
+
+.box {
+    grid-area: box;
+}
+
+.quality {
+    grid-area: quality;
+}
+
+.present{
+    grid-area: present;
+}
+
+.choose-content {
+    border: 3px solid black;
+    border-radius: 19px;
+}
+
+.choose-content h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.choose-content p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.choose-content .emoji {
+    font-size: 30px;
+}
+
+.me-container{
+    background-color: #fff5f0;
+    height: 400px;
+}
+.me-content {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.me-content p {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.me-content img {
+    height: 350px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.me p {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub {
+    font-size: 30px;
+    text-align: center;
+}
+
+.read-btn {
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff5f0;
+    height: 300px;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+   font-size: 20px;
+   font-family:'sans';
+}
+
+.footer-content .list {
+    margin-left: -35px;
+}
+
+.footer-content .list li{
+    margin-bottom: 10px;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.bottom-bar {
+    margin-left: 20px;
+    padding-bottom: 5px;
 }
