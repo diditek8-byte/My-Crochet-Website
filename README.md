@@ -5,6 +5,7 @@ This project is currently a work-in-progress for the Hack Club Stardance event!
 Features Completed So Far
 - The Navbar
 - The Background
+- The Homepage
 
 What I still need to include
 - Basically everything
