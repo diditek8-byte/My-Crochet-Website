@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpeg');
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+} 
+
+
+nav {
+    position: fixed;
+    background-color: #c9a0a0;
+    width: 100%;
+    height: 80px;
+    margin-top: -45px;
+    z-index: 2;
+}
+
+nav li {
+    display: inline;
+    margin: 5%;
+    padding-top: 10%;
+}
+
+a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+i {
+    position: relative;
+    left: 10%;
+    top: -35px;
+    font-size: 35px;
+    margin-top: -25px;
+}
+
+.contact-btn {
+    margin-left: 55%;
+    position: relative;
+    top: -45px;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+main .banner {
+    position: relative;
+    top: 190px;
+    left: 10%;
+    font-size: 20px;
+    
+}
+
+.banner h1 {
+    font-family: cursive;
+    font-size: 50px;
+}
+.banner p {
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: 'sans';
+}
+
+main .bag-img {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: -10%;
+    margin-left: 40%;
+}
+
+.bag-img img {
+    margin-left: 10%;
+    border-radius: 13px;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+
+.Collection {
+  margin-top: 40vh;
+  background-color: #fff5f0;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 4px 0 8px;
+}
+
+.content {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.more-btn {
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    margin-left: 46%;
+    margin-top: 35px;
+    position: relative;
+    top: -35px
+}
+
+#choose {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont {
+    background-color: #fff5f0;
+    height: 500px;
+}
+
+.choose {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "yarn box quality"
+    "present present quality"
+    ;
+    gap: 25px;
+    margin-left: 18%;
+    position: relative;
+    top: 8%;
+}
+
+.yarn {
+    grid-area: yarn;
+}
+
+.box {
+    grid-area: box;
+}
+
+.quality {
+    grid-area: quality;
+}
+
+.present{
+    grid-area: present;
+}
+
+.choose-content {
+    border: 3px solid black;
+    border-radius: 19px;
+}
+
+.choose-content h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.choose-content p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.choose-content .emoji {
+    font-size: 30px;
+}
+
+.me-container{
+    background-color: #fff5f0;
+    height: 400px;
+}
+.me-content {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.me-content p {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.me-content img {
+    height: 350px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.me p {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub {
+    font-size: 30px;
+    text-align: center;
+}
+
+.read-btn {
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff5f0;
+    height: 300px;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+   font-size: 20px;
+   font-family:'sans';
+}
+
+.footer-content .list {
+    margin-left: -35px;
+}
+
+.footer-content .list li{
+    margin-bottom: 10px;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.bottom-bar {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+nav .fa-solid.menu {
+    display: none;
+}
+@media (max-width: 600px) {
+    body {
+        width: 600px;
+        height: 55vh;
+    }
+
+    #sidebar {
+        position:fixed;
+        top: 0;
+        left: auto;
+        margin-left: 30%;
+    }
+
+    nav {
+        background-color: #c9a0a0;
+    }
+
+    nav ul {
+        width: 200px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #c9a0a0;
+        margin-left: -40%;
+        margin-top: 4px;
+        z-index: 2;
+    }
+
+
+    nav .fa-solid.menu {
+        display: block;
+    }
+    nav ul .fa-solid.menu {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        
+    }
+
+    .bag-img img{
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+        position: relative;
+        top: -60px;
+        left: 7%;
+    }
+
+    .banner p {
+        font-size: 17px;
+        position: relative;
+        top: -60px;
+        left: 3%;
+    }
+
+    .Collection {
+        margin-top: 55vh;
+    }
+
+    .card-container{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 314px;
+        margin-left: 10%;
+    }
+
+    .icons {
+        position: relative;
+        left: -55%;
+        top: -55%;
+    }
+
+
+    .fa-bars {
+        display:block;
+        margin-left: 20%;
+        margin-top: 7%;
+        z-index: 1;
+    }
+
+    .heading {
+        margin-left: -30%;
+        font-size: 30px;
+        position: relative;
+        top: -50px;
+    }
+
+    .more-btn {
+        margin-left:25%;
+    }
+
+    #choose {
+        font-size: 25px;
+        margin-left: -30%;
+    }
+
+    /* work continues here */
+
+    .choose {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}

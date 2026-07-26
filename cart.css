@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f0;
+    height: 220vh;
+    overflow-x: hidden;
+    height: 78vh;
+}
+
+
+nav {
+    position: fixed;
+    background-color: #c9a0a0;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    margin-top: -40px;
+}
+
+nav li {
+    display: inline;
+    margin: 5%;
+    padding-top: 10%;
+}
+
+a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+i {
+    position: relative;
+    left: 10%;
+    top: -43px;
+    font-size: 35px;
+    
+}
+
+.contact-btn {
+    margin-left: 55%;
+    position: relative;
+    top: -53px;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+main .heading {
+    position: relative;
+    top: 80px;
+    font-size: 2rem;
+    left: 14%;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    /* Header layout - adjusted to align with cart rows */
+    grid-template-columns: 1% 94% 1fr;
+    gap: 30px;
+    position: relative;
+    top: 70px;
+}
+
+.row-container {
+    display: grid;
+    grid-template-columns: 80px 370px 430px 240px;
+    align-items: start;
+    gap: 40px;
+}
+
+#cart-items {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1100px;
+}
+
+.border {
+    border: 1px solid grey;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 1075px; 
+}
+
+.col-1 {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.col-2 {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 45%;
+}
+
+.col-3 {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+div.row-2 {
+   font-size: 16px;
+   
+   white-space: nowrap;
+}
+
+div .row-2 a {
+    display: flex;
+}
+
+.row-2 a:hover {
+    text-decoration: underline;
+    transition: 1s ease;
+}
+
+.row-3 input {
+    width: 50px;
+    height: 47px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.row-3 input:focus {
+    outline: none;
+    border: none;
+}
+
+span {
+    font-size: 14px;
+}
+
+
+.row-4 {
+    font-size: 16px;
+    
+}
+
+.quantity-btn {
+    width: 50px;
+    height: 47px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.quantity-btn.minus {
+    position: relative;
+    left: -36.5%;
+    top: 2.5px;
+    border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.quantity-btn.plus {
+    position: relative;
+    left: -6px;
+    top: 2.5px;
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.fa-trash-can{
+    position: relative;
+    left: -10%;
+    top: 13px;
+    font-size: 18px;
+}
+
+.checkout {
+    position: relative;
+    left: 65%;
+    top: 50px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-left: 7%;
+}
+
+#empty-cart {
+    text-align: center;
+    font-size: 30px;
+}
+.checkout-btn {
+    width: 350px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+
+.border-2 {
+    border: 1px solid grey;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 1075px; 
+    margin-left: 15%;
+    margin-top: 6.5%;
+}
+
+.shopping-btn {
+    width: 200px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 550;
+    background-color: #c9a0a0;
+    border-radius: 10px;
+}
+
+#cart-container {
+    position: relative;
+    top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c9a0a0;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+   font-size: 20px;
+   font-family:'sans';
+}
+
+.footer-content .list {
+    margin-left: -35px;
+}
+
+.footer-content .list li{
+    margin-bottom: 10px;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.bottom-bar {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}

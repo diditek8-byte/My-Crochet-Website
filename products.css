@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f0;
+    height: 220vh;
+}
+
+nav {
+    position: fixed;
+    background-color: #c9a0a0;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    margin-top: -35px;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 5%;
+    padding-top: 10%;
+}
+
+a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+i {
+    position: relative;
+    left: 10%;
+    top: -43px;
+    font-size: 35px;
+    
+}
+
+.contact-btn {
+    margin-left: 55%;
+    position: relative;
+    top: -53px;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.product-container, img{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: 430px;
+    gap: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-container {
+    position: relative;
+    top: 140px;
+    margin-left: 13%;
+}
+
+.product-card {
+    border: 1px solid #414141;
+    border-radius: 13px;
+}
+
+.heading {
+    position: relative;
+    top: 120px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.product-content {
+    padding-left: 20px;
+    color: #212121;
+}
+
+.product-content p:last-child {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.product-content p:first-child {
+    font-family: 'sans';
+    font-size: 18px;
+    font-weight: 530;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c9a0a0;
+    height: 300px;
+    margin-top: 40vh;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+   font-size: 20px;
+   font-family:'sans';
+}
+
+.footer-content .list {
+    margin-left: -35px;
+}
+
+.footer-content .list li{
+    margin-bottom: 10px;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.bottom-bar {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
