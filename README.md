@@ -6,18 +6,18 @@ Features Completed So Far
 - The Navbar
 - The Background
 - The Homepage
-
-What I still need to include
-- Basically everything
-- Responsive layout
 - The product showcase
 - My about me page
 - The Contact me form
 - Login system
 - A Cart
-- A Payment System
+
+What I still need to include
+- Responsive layout
 
 Built With
 -HTML5
 -CSS3
+-JavaScript
 -Fontawesome
+
