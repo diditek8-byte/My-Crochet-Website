@@ -9,15 +9,14 @@ Features Completed So Far
 - The product showcase
 - My about me page
 - The Contact me form
-- Login system
 - A Cart
 
 What I still need to include
 - Responsive layout
 
 Built With
--HTML5
--CSS3
--JavaScript
--Fontawesome
+- HTML5
+- CSS3
+- JavaScript
+- Fontawesome
 
