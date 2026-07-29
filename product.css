@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f0;
+}
+
+nav {
+    position: fixed;
+    background-color: #c9a0a0;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+
+nav li {
+    display: inline;
+    margin: 5%;
+    padding-top: 10%;
+}
+
+a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+i {
+    position: relative;
+    left: 10%;
+    top: -35px;
+    font-size: 35px;
+    margin-top: -25px;
+}
+
+.contact-btn {
+    margin-left: 55%;
+    position: relative;
+    top: -43px;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.products-container {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+    gap: 70px;
+}
+
+.cart-btn{
+    width: 420px;
+    height: 40px;
+    margin-top: 30%;
+    margin-left: -50%;
+    background-color: #c9a0a0;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#image {
+    border-radius: 10px;
+    margin-left: -10%;
+}
+
+#title {
+    font-size: 40px;
+    color: #414141;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+#price {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-height: 480px;
+    margin-left: -68px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+.quantity {
+    margin-left: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity input {
+    background-color: #e8e8e8;
+    border: 0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    border-radius: 12px;
+    width: 50px
+}
+
+.back {
+    position: relative;
+    top: 230px;
+    left: -50px;
+    background-color: #c9a0a0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c9a0a0;
+    height: 300px;
+    margin-top: 20%;
+}
+
+.footer-content {
+    margin-top: 40px;
+}
+
+.footer-content h3 {
+   font-size: 20px;
+   font-family:'sans';
+}
+
+.footer-content .list {
+    margin-left: -40px;
+}
+
+.footer-content .list li{
+    margin-bottom: 10px;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.bottom-bar {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+    <script src="https://kit.fontawesome.com/ad7d45dd90.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="products.html">Products</a></li>
+    </ul>
+    <a href="contact.html">
+      <button class="contact-btn btn">Contact me</button>
+      </a>
+      
+    <a href="cart.html">
+      <i class="fa-solid fa-bag-shopping"></i>
+    </a>
+</nav>
+<main>
+    <a href="products.html" class="back"><i class="fa-solid fa-arrow-left"></i></a>
+
+    <div class="products-container">
+        <img id="image" src="" alt="Product Image" width="380px" height="550px">
+        <div class="wrapper">
+        <h1 id="title"></h1>
+        <p id="price"></p>
+        <div class="quantity">
+        <h3>Quantity:</h3>
+        <input type="number" name="quantity" value="1" id="product-quantity">
+       </div>
+       </div>
+        <button class="cart-btn" id="cart-btn" onclick="addToCart(product)">Add to Cart</button>
+    </div>
+</main>
+<footer>
+  <div class="footer-container">
+    <div class="footer-content contact">
+      <h3>Contact Me</h3>
+      <p>Email: delilahtek18@gmail.com</p>
+      <p>Phone: +639524709646</p>
+
+    </div>
+    <div class="footer-content">
+      <h3>Quick Links</h3>
+      <ul class="list">
+        <li>Privacy policy</li>
+        <li>Terms & conditions</li>
+        <li>Shipping & returns</li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </div>
+    <div class="footer-content">
+      <h3>Follow Me</h3>
+      <ul class="socials">
+        <li><a href="https://www.tiktok.com/@d3lil4hhhh?_r=1&_t=ZT-97sWY61I3eI" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+        <li><a href="https://www.facebook.com/share/1JvzjcDztm/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/didi_88249?igsh=MXJ0M2k3Z2ZjMWxicw%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/delilah-tek-dixon-94a07538a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <p>&copy; 2026 Delilah's Crochet. All rights reserved.</p>
+  </div>
+</footer>
+     
+<script src="product.js"></script>
+</body>
+</html>
