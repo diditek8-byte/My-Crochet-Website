@@ -67,22 +67,7 @@ const products = [
             name: "Hammock",
             price: 20.00,
             image: "images/hammock.jpg"
-        },
-
-        {
-            id: 11,
-            name: "Pouch",
-            price: 5.99,
-            image: "images/pouch.jpg"
-        },
-
-        {
-            id: 12,
-            name: "Heart Trinket Dish",
-            price: 6.99,
-            image: "images/heartholder.jpg"
-        },
-
+        }
     ]
 
 
