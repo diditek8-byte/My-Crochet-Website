@@ -1,8 +1,8 @@
-Welcome to my crochet landing page project! I am building this site because I want to create a small business with my crochet stuff
+Crochet Business Website
 
-This project is currently a work-in-progress for the Hack Club Stardance event!
+A business website for selling crochet products. Although this project is only for learning purposes and not actually selling.
 
-Features Completed So Far
+Features 
 - The Navbar
 - The Background
 - The Homepage
@@ -11,7 +11,7 @@ Features Completed So Far
 - The Contact me form
 - A Cart
 
-What I still need to include
+Need to include
 - Responsive layout
 
 Built With
